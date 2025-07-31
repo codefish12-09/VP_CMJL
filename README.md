@@ -3,4 +3,4 @@
 * **Authors**: Shiyu Zhang, Cheng Yan1, Yang Liu, Chenchen Jing, Lei Zhou, Wenjun Wang
 * **Institutes**: Tianjin University, Zhejiang University, Zhejiang University of Technology, Hainan University
 ## Overview
-![https://github.com/codefish12-09/VP_CMJL/blob/main/images/method.jpg?raw=true]
+![](https://github.com/codefish12-09/VP_CMJL/blob/main/images/method.jpg?raw=true)
