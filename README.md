@@ -10,4 +10,4 @@ The code is being organized. We will make it available as soon as possible.
 ### Main Results
 
 The following results are obtained with a pre-trained CLIP (ViT-L/14). More experimental results can be found in the paper.
-![](https://github.com/codefish12-09/VP_CMJL/blob/main/images/experiment.jpg?raw=true)
+![]([https://github.com/codefish12-09/VP_CMJL/blob/main/images/experiment.jpg?raw=true](https://github.com/codefish12-09/VP_CMJL/blob/main/images/experiment.png))
