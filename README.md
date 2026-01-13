@@ -19,7 +19,22 @@ fine-grained cues, improving visual representations. Additionally, we propose Cr
 The following results are obtained with a pre-trained CLIP (ViT-L/14). More experimental results can be found in the paper.
 ![](https://github.com/codefish12-09/VP_CMJL/blob/main/images/experiment.png?raw=true)
 
+## ⚙️ Setup
 
+Our work is implemented in PyTorch framework. Create a conda environment `vpcmjl` using:
+
+```
+conda create --name vpcmjl python=3.10.3
+conda activate vpcmjl
+pip install -r requirements.txt
+```
+
+## 🏋️ Training Phase
+
+```py
+python train.py \
+--dataset <DATASET> 
+```
 ## 🙏 Acknowledgement
 
 Thanks for the publicly available code of [Troika](https://github.com/bighuang624/Troika).
