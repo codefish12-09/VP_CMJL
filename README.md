@@ -1,4 +1,3 @@
-The code is being organized. We will make it available as soon as possible.
 # [ICCV 2025] Learning Visual Proxy for Compositional Zero-Shot Learning
 * **Title**: **[Learning Visual Proxy for Compositional Zero-Shot Learning](https://arxiv.org/pdf/2501.13859)**
 * **Authors**: Shiyu Zhang, Cheng Yan1, Yang Liu, Chenchen Jing, Lei Zhou, Wenjun Wang
@@ -61,4 +60,4 @@ python test_multi_proxy.py \
 ```
 ## 🙏 Acknowledgement
 
-Thanks for the publicly available code of [Troika](https://github.com/bighuang624/Troika).
+Thanks for the publicly available code of [Troika](https://github.com/bighuang624/Troika), [DFSP](https://github.com/Forest-art/DFSP?tab=readme-ov-file#feasibility-calibration)
