@@ -34,6 +34,31 @@ pip install -r requirements.txt
 ```py
 python train_multi_proxy.py --dataset <DATASET> 
 ```
+
+## 📊 Evaluation
+
+We evaluate our models in two settings: closed-world and open-world.
+
+### Closed-World Evaluation
+
+```py
+python test_multi_proxy.py --dataset <DATASET> 
+```
+
+### Open-World Evaluation
+
+For our open-world evaluation, we compute the feasbility calibration and then evaluate on the dataset.
+
+For feasbility calibration, we have computed feasibility similarities and saved them at `data/feasibility_<dataset>.pt`. Therefore, you don't need to handle this yourself. If you need to compute on your own, please refer to [DFSP](https://github.com/Forest-art/DFSP?tab=readme-ov-file#feasibility-calibration).
+
+Just run:
+
+```py
+python test_multi_proxy.py \
+--dataset <DATASET>  \
+--open_world True \
+--threshold 0.4 \
+```
 ## 🙏 Acknowledgement
 
 Thanks for the publicly available code of [Troika](https://github.com/bighuang624/Troika).
