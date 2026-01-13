@@ -32,8 +32,7 @@ pip install -r requirements.txt
 ## 🏋️ Training Phase
 
 ```py
-python train.py \
---dataset <DATASET> 
+python train_multi_proxy.py --dataset <DATASET> 
 ```
 ## 🙏 Acknowledgement
 
