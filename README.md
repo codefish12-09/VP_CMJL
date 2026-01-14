@@ -1,6 +1,6 @@
 # [ICCV 2025] Learning Visual Proxy for Compositional Zero-Shot Learning
 * **Title**: **[Learning Visual Proxy for Compositional Zero-Shot Learning](https://arxiv.org/pdf/2501.13859)**
-* **Authors**: Shiyu Zhang, Cheng Yan1, Yang Liu, Chenchen Jing, Lei Zhou, Wenjun Wang
+* **Authors**: Shiyu Zhang, Cheng Yan, Yang Liu, Chenchen Jing, Lei Zhou, Wenjun Wang
 * **Institutes**: Tianjin University, Zhejiang University, Zhejiang University of Technology, Hainan University
 ## 🚀 Overview
 ![](https://github.com/codefish12-09/VP_CMJL/blob/main/images/method.jpg?raw=true)
@@ -27,6 +27,19 @@ conda create --name vpcmjl python=3.10.3
 conda activate vpcmjl
 pip install -r requirements.txt
 ```
+## 📚 Download Dataset
+We evaluate our method on four benchmark datasets commonly used in Compositional Zero-Shot Learning (CZSL):
+
+MIT-States
+
+UT-Zappos
+
+C-GQA
+
+VAW-CZSL
+
+Download Instructions
+Please follow the data preparation protocols provided by  [Troika](https://github.com/bighuang624/Troika)(for MIT-States, UT-Zappos, and C-GQA) and [OADis](https://github.com/nirat1606/OADis) (for VAW-CZSL).
 
 ## 🏋️ Training Phase
 
