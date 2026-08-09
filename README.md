@@ -1,3 +1,5 @@
+
+
 # [ICCV 2025] Learning Visual Proxy for Compositional Zero-Shot Learning
 * **Title**: **[Learning Visual Proxy for Compositional Zero-Shot Learning](https://arxiv.org/pdf/2501.13859)**
 * **Authors**: Shiyu Zhang, Cheng Yan, Yang Liu, Chenchen Jing, Lei Zhou, Wenjun Wang
@@ -59,9 +61,9 @@ python test_multi_proxy.py --dataset <DATASET>
 
 ### Open-World Evaluation
 
-For our open-world evaluation, we compute the feasbility calibration and then evaluate on the dataset.
+For our open-world evaluation, we compute the feasibility calibration and then evaluate on the dataset.
 
-For feasbility calibration, we have computed feasibility similarities and saved them at `data/feasibility_<dataset>.pt`. Therefore, you don't need to handle this yourself. If you need to compute on your own, please refer to [DFSP](https://github.com/Forest-art/DFSP?tab=readme-ov-file#feasibility-calibration).
+For feasibility calibration, we have computed feasibility similarities and saved them at `data/feasibility_<dataset>.pt`. Therefore, you don't need to handle this yourself. If you need to compute on your own, please refer to [DFSP](https://github.com/Forest-art/DFSP?tab=readme-ov-file#feasibility-calibration).
 
 Just run:
 
